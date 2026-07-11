@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+
+id = "the_reducer"
+name = "The Reducer"
+tagline = "Reduce polygons and texture size, keeping UV mapping"
+version = "1.2.0"
+type = "add-on"
+maintainer = "Zach Shukan <zach@omegadarling.com>"
+license = ["SPDX:GPL-3.0-or-later"]
+blender_version_min = "4.2.0"

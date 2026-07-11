@@ -1,0 +1,9 @@
+# Build artifacts (the installable extension is built from source)
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
