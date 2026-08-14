@@ -1,8 +1,16 @@
+<p align="center">
+  <img src="docs/images/icon.webp" width="144" alt="The Reducer app icon">
+</p>
+
 # The Reducer — Blender add-on
 
 Lower a mesh's **polygon count** and shrink its **texture maps** while keeping the
 **UV texture mapping intact** — everything keeps landing on the exact same places,
 just at lower resolution.
+
+![The Reducer changes a high-poly textured mesh into a lightweight version while preserving its mapped color regions](docs/images/the-reducer.png)
+
+*Reduce geometry and texture size together while keeping the model's UV-mapped appearance in place.*
 
 It's a **separate extension** from *Painted 3MF Export* (its own zip / entry in
 Preferences); the two don't depend on each other.
