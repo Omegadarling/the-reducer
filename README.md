@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/icon.webp" width="144" alt="The Reducer app icon">
+</p>
+
 # The Reducer — Blender add-on
 
 Lower a mesh's **polygon count** and shrink its **texture maps** while keeping the
