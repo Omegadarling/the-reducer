@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/icon.webp" width="176" alt="The Reducer app icon">
+  <img src="https://raw.githubusercontent.com/Omegadarling/the-reducer/main/docs/images/icon.webp" width="176" alt="The Reducer app icon">
 </p>
 
 # The Reducer — Blender add-on
@@ -8,13 +8,13 @@ Lower a mesh's **polygon count** and shrink its **texture maps** while keeping t
 **UV texture mapping intact** — everything keeps landing on the exact same places,
 just at lower resolution.
 
-![The Reducer changes a high-poly textured mesh into a lightweight version while preserving its mapped color regions](docs/images/the-reducer.png)
+![The Reducer changes a high-poly textured mesh into a lightweight version while preserving its mapped color regions](https://raw.githubusercontent.com/Omegadarling/the-reducer/main/docs/images/the-reducer.png)
 
 *Reduce geometry and texture size together while keeping the model's UV-mapped appearance in place.*
 
 ## Actual add-on in Blender
 
-![Blender 5.1 comparing a dense original mesh with the reduced copy while The Reducer sidebar shows an 82 percent polygon reduction and its projected triangle count](docs/images/blender-screenshot.png)
+![Blender 5.1 comparing a dense original mesh with the reduced copy while The Reducer sidebar shows an 82 percent polygon reduction and its projected triangle count](https://raw.githubusercontent.com/Omegadarling/the-reducer/main/docs/images/blender-screenshot.png)
 
 *Actual Blender capture after the add-on created a separate reduced copy: the dense original stays on the left, while the 82%-reduced result and live triangle estimate are visible on the right.*
 
