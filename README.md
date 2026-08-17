@@ -14,9 +14,9 @@ just at lower resolution.
 
 ## Actual add-on in Blender
 
-![Blender 5.1 comparing a dense original mesh with the reduced copy while The Reducer sidebar shows an 82 percent polygon reduction and its projected triangle count](https://raw.githubusercontent.com/Omegadarling/the-reducer/main/docs/images/blender-screenshot.png)
+![Blender 5.1 comparing a 12,096-triangle original with a 1024-square color map against a 2,176-triangle reduced copy with its own 256-square map; the same asymmetric color grid remains aligned while The Reducer panel shows both reductions](https://raw.githubusercontent.com/Omegadarling/the-reducer/main/docs/images/blender-screenshot.png?v=2)
 
-*Actual Blender capture after the add-on created a separate reduced copy: the dense original stays on the left, while the 82%-reduced result and live triangle estimate are visible on the right.*
+*Actual Blender capture after a **New Copy** reduction: the color grid and white diagonal stay mapped to the same places, the right-hand wire overlay reveals the simpler topology, and the panel shows `12,096 → 2,177` triangles plus `1024×1024 → 256×256` for the new texture.*
 
 It's a **separate extension** from *Painted 3MF Export* (its own zip / entry in
 Preferences); the two don't depend on each other.
